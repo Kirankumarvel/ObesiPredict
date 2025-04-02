@@ -9,7 +9,7 @@ ObesiPredict is a machine learning pipeline for predicting obesity levels based 
 ```
 ObesiPredict/
 │── data/
-│   ├── obesity_data.csv  # Dataset (if stored locally)
+│   ├── Obesity_level_prediction_dataset.csv  # Dataset (if stored locally)
 │── notebooks/
 │   ├── Exploratory_Data_Analysis.ipynb  # Initial data exploration
 │── src/
