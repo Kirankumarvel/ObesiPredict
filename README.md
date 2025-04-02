@@ -24,7 +24,7 @@ ObesiPredict/
 
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ObesiPredict.git
+git clone https://github.com/kirankumarvel/ObesiPredict.git
 cd ObesiPredict
 ```
 
