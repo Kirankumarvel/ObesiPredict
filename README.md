@@ -1,10 +1,12 @@
+
 # ObesiPredict
 ObesiPredict 🎯- A sleek and simple name that combines "Obesity" and "Predict."
 
 ObesiPredict is a machine learning pipeline for predicting obesity levels based on various health and lifestyle factors. It utilizes logistic regression models with One-vs-All (OvA) and One-vs-One (OvO) strategies to classify individuals into different obesity categories.
 
-Project Structure
+## Project Structure
 
+```
 ObesiPredict/
 │── data/
 │   ├── obesity_data.csv  # Dataset (if stored locally)
@@ -16,55 +18,53 @@ ObesiPredict/
 │── ObesiPredict.py  # Main script for the obesity prediction pipeline
 │── requirements.txt  # Dependencies
 │── README.md  # Project documentation
+```
 
-Installation
+## Installation
 
 Clone the repository:
-
-git clone https://github.com/kirankumarvel/ObesiPredict.git
+```bash
+git clone https://github.com/yourusername/ObesiPredict.git
 cd ObesiPredict
+```
 
 Create a virtual environment (optional but recommended):
-
+```bash
 python -m venv env
 source env/bin/activate  # On Windows use `env\Scripts\activate`
+```
 
 Install dependencies:
-
+```bash
 pip install -r requirements.txt
+```
 
-Dataset
+## Dataset
 
-The dataset used is publicly available at:[Obesity-level-prediction dataset.csv](https://github.com/Kirankumarvel/ObesiPredict/blob/main/Obesity_level_prediction_dataset.csv)
+The dataset used is publicly available at:
+[Obesity-level prediction dataset](https://github.com/Kirankumarvel/ObesiPredict/blob/main/Obesity_level_prediction_dataset.csv)
 
-
-Running the Pipeline
+## Running the Pipeline
 
 To execute the full pipeline:
-
+```bash
 python ObesiPredict.py
+```
 
-Features Implemented
+## Features Implemented
 
-Exploratory Data Analysis (EDA)
+- **Exploratory Data Analysis (EDA)**
+- **Data Preprocessing:** Standardization, one-hot encoding
+- **Model Training:** Logistic Regression with OvA & OvO
+- **Performance Evaluation:** Accuracy, classification report
+- **Feature Importance Visualization**
 
-Data Preprocessing: Standardization, one-hot encoding
+## Next Steps
 
-Model Training: Logistic Regression with OvA & OvO
+- Try different classification models
+- Experiment with hyperparameter tuning
+- Add support for real-time predictions via a web API
 
-Performance Evaluation: Accuracy, classification report
-
-Feature Importance Visualization
-
-Next Steps
-
-Try different classification models
-
-Experiment with hyperparameter tuning
-
-Add support for real-time predictions via a web API
-
-License
+## License
 
 This project is open-source under the MIT License.
-
